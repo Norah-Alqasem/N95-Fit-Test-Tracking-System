@@ -19,25 +19,27 @@ OSHA and most hospital infection-control protocols require N95 fit tests to be r
 
 ## Screenshots
 
-### Dashboard — Hospital-wide overview
-Real-time KPIs and per-department breakdown across all 33 clinical units.
+   ### Dashboard — Hospital-wide overview
+   Real-time KPIs and per-department breakdown across all 33 clinical units.
 
-![Dashboard](screenshots/dashboard.png)
+   <img width="1026" height="956" alt="Dashboard" src="https://github.com/user-attachments/assets/d354f18a-cc11-4b55-bd19-06f527489edd" />
 
-### Department sheet — Staff list
-Each department has its own sheet with auto-calculated expiration dates and color-coded status (green / yellow / red).
 
-![Staff list](screenshots/staff-list.png)
+   ### Department sheet — Staff list
+   Each department has its own sheet with auto-calculated expiration dates and color-coded status (green / yellow / red).
+   
+<img width="2010" height="617" alt="Staff-list" src="https://github.com/user-attachments/assets/9f73ef58-13ca-4930-8ab4-d84795cd518f" />
 
-### Automated email alert
-Sent to Infection Control and the department lead 30 days before expiration.
+   ### Automated email alert
+   Sent to Infection Control and the department lead 30 days before expiration.
+ 
+   <img width="1250" height="1106" alt="Alert" src="https://github.com/user-attachments/assets/83ace975-64ec-44c6-bc25-49255e34a151" />
 
-![Alert email](screenshots/alert.png)
+   ### Daily check execution
+   Apps Script runs automatically every morning, scanning all sheets and sending alerts.
 
-### Daily check execution
-Apps Script runs automatically every morning, scanning all sheets and sending alerts.
+  <img width="2166" height="540" alt="Run" src="https://github.com/user-attachments/assets/a1c35b5a-ff5b-4afe-8104-6a209fc54245" />
 
-![Run log](screenshots/run.png)
 
 ## Tech Stack
 
@@ -156,7 +158,6 @@ The script tracks the last sent timestamp per employee+expiration combo. By defa
 - **Google Sheets version:** Free Gmail accounts have a 100-email/day limit; Google Workspace accounts get 1,500/day.
 - **Excel version:** Requires Outlook installed and signed in on the same machine. Computer must be on for Task Scheduler runs.
 - **Mac Excel:** Outlook for Mac VBA support is limited — use the Google Sheets version on Mac.
-
 ## Future Improvements
 
 - [ ] Power BI integration for cross-hospital reporting
@@ -170,8 +171,8 @@ MIT — feel free to adapt this for your facility. Attribution appreciated but n
 
 ## Author
 
-- [ ] Norah Alqasem
-- [ ] Manar Alharthi
+-  Norah Alqasem
+-  Manar Alharthi
 -  built as an internal tool for hospital infection control automation.
 
 ## Disclaimer
