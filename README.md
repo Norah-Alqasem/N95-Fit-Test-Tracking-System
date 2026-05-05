@@ -137,10 +137,8 @@ The script tracks the last sent timestamp per employee+expiration combo. By defa
 
 ## Future Improvements
 
-- [ ] SMS alerts via Twilio for critical expirations
-- [ ] Power BI / Looker Studio integration for cross-hospital reporting
+- [ ] Power BI integration for cross-hospital reporting
 - [ ] Audit log sheet recording every alert sent
-- [ ] Bulk import from HR systems (CSV upload)
 - [ ] Multi-language email templates (English/Arabic)
 - [ ] Slack / Microsoft Teams webhook integration
 
@@ -150,8 +148,8 @@ MIT — feel free to adapt this for your facility. Attribution appreciated but n
 
 ## Author
 
-Norah Alqasem
-Manar Alharthi
+- [ ] Norah Alqasem
+- [ ] Manar Alharthi
 built as an internal tool for hospital infection control automation.
 
 ## Disclaimer
