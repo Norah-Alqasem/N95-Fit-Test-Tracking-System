@@ -17,6 +17,28 @@ OSHA and most hospital infection-control protocols require N95 fit tests to be r
 - **Two implementations** — Google Sheets (cloud) or Excel (offline)
 - **6,740 formulas, zero errors** — verified before delivery
 
+## Screenshots
+
+### Dashboard — Hospital-wide overview
+Real-time KPIs and per-department breakdown across all 33 clinical units.
+
+![Dashboard](screenshots/dashboard.png)
+
+### Department sheet — Staff list
+Each department has its own sheet with auto-calculated expiration dates and color-coded status (green / yellow / red).
+
+![Staff list](screenshots/staff-list.png)
+
+### Automated email alert
+Sent to Infection Control and the department lead 30 days before expiration.
+
+![Alert email](screenshots/alert.png)
+
+### Daily check execution
+Apps Script runs automatically every morning, scanning all sheets and sending alerts.
+
+![Run log](screenshots/run.png)
+
 ## Tech Stack
 
 | Component | Google Sheets version | Excel version |
