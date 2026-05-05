@@ -150,7 +150,7 @@ MIT — feel free to adapt this for your facility. Attribution appreciated but n
 
 - [ ] Norah Alqasem
 - [ ] Manar Alharthi
-     -  built as an internal tool for hospital infection control automation.
+-  built as an internal tool for hospital infection control automation.
 
 ## Disclaimer
 
